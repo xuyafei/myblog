@@ -1,2 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on My New Hugo Site</title><link>https://example.org/posts/</link><description>Recent content in Posts on My New Hugo Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 04 Apr 2025 14:00:00 +0800</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello World</title><link>https://example.org/posts/hello-world/</link><pubDate>Fri, 04 Apr 2025 14:00:00 +0800</pubDate><guid>https://example.org/posts/hello-world/</guid><description>欢迎来到我的技术博客！
-func sayHello(name: String) { print(&amp;#34;Hello, \(name)!&amp;#34;) }</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on My New Hugo Site</title><link>https://example.org/posts/</link><description>Recent content in Posts on My New Hugo Site</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://example.org/posts/hello-world/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.org/posts/hello-world/</guid><description>神旗客户端：信创时代的高效协作工具 在信息技术应用创新的浪潮中，“神旗”解决方案应运而生，作为一套全面自主可控的信创产品，神旗涵盖了客户端、服务器和 Web 端。然而，作为用户沟通的直接窗口，神旗客户端在整套方案中尤为关键。
+神旗客户端的核心优势 1. 自主可控，信创标杆 神旗客户端基于 Qt 框架开发，全面适配国产操作系统（如统信 UOS、麒麟）和国产 CPU（如飞腾、龙芯），真正实现了从底层技术到应用功能的自主可控。
+2. 高清流畅，极致体验 神旗客户端支持高清音视频通话和实时协作功能，如屏幕共享、文件传输和白板互动，确保多场景应用下的流畅性能。
+3. 直观设计，便捷易用 采用简洁直观的用户界面，无论是首次使用的入门者还是长期使用的专业人士，都能快速上手，提升沟通效率。
+4. 安全防护，数据可靠 内置加密传输机制，结合服务器和客户端的双向认证，全面保障数据在国产环境中的安全。
+赋能多场景应用 神旗客户端为政府、企业、教育等行业量身打造，可支持多种视频会议场景，包括：
+远程政务协同：无缝对接国产化环境，保障高效、安全的会议体验。 企业内部沟通：从日常会议到跨部门协作，轻松实现信息同步与任务跟踪。 教育在线教学：高清音视频和多元互动功能，助力教学场景的全面覆盖。 神旗客户端，引领信创未来 作为神旗解决方案的核心组成部分，客户端不仅是用户体验的直接窗口，更是推动信创产品落地的重要力量。未来，神旗团队将继续深耕技术，不断优化客户端性能，为更多行业提供更加安全、高效、便捷的信创产品体验。
+体验神旗客户端，畅享信创沟通新高度！</description></item></channel></rss>
