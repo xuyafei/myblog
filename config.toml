@@ -1,0 +1,24 @@
+baseURL = "https://xuyafei0208@126.github.io/"
+languageCode = "en-us"
+title = "我的技术博客"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  author = "你的名字"
+  description = "分享 Swift / Objective-C / C++ 开发经验的博客"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于我"
+    url = "/about/"
+    weight = 2
