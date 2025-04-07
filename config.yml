@@ -43,7 +43,7 @@ params:
     enabled: true
     title: "欢迎来到我的博客" 
     subtitle: "这里是我分享技术思考和开发经验的空间"
-    imageUrl: "#" # 稍后可以添加您的头像URL
+    imageUrl: "/myblog/images/avatar.png"
     imageTitle: "徐亚飞" 
     imageWidth: 120
     imageHeight: 120
