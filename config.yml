@@ -17,11 +17,11 @@ minify:
 
 params:
   env: production
-  title: "Yafei's Tech Blog"
-  description: "A personal blog about technology and development"
-  keywords: [Blog, Portfolio, PaperMod, Technology, Development]
-  author: Yafei Xu
-  DateFormat: "January 2, 2006"
+  title: "徐亚飞的技术博客"
+  description: "分享技术与开发经验的个人博客"
+  keywords: [博客, 技术, 开发, 编程]
+  author: 徐亚飞
+  DateFormat: "2006年1月2日"
   defaultTheme: auto
   ShowReadingTime: true
   ShowShareButtons: true
@@ -41,16 +41,16 @@ params:
 
   profileMode:
     enabled: true
-    title: "Welcome to Yafei's Blog" 
-    subtitle: "A space where I share my thoughts and experiences about technology and software development"
+    title: "欢迎来到我的博客" 
+    subtitle: "这里是我分享技术思考和开发经验的空间"
     imageUrl: "#" # 稍后可以添加您的头像URL
-    imageTitle: "Yafei Xu" 
+    imageTitle: "徐亚飞" 
     imageWidth: 120
     imageHeight: 120
     buttons:
-      - name: Posts
+      - name: 文章列表
         url: posts
-      - name: About
+      - name: 关于我
         url: about
 
   socialIcons:
@@ -70,18 +70,18 @@ params:
 menu:
   main:
     - identifier: categories
-      name: Categories
+      name: 分类
       url: /categories/
       weight: 10
     - identifier: tags
-      name: Tags
+      name: 标签
       url: /tags/
       weight: 20
     - identifier: archives
-      name: Archives
+      name: 归档
       url: /archives/
       weight: 30
     - identifier: about
-      name: About
+      name: 关于
       url: /about/
       weight: 40 
