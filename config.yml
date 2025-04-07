@@ -1,6 +1,7 @@
 baseURL: "https://xuyafei.github.io/myblog"
-title: "Yafei's Tech Blog"
-theme: PaperMod
+languageCode: "zh-cn"
+title: "My Blog"
+theme: "PaperMod"
 
 pagination:
   pagerSize: 5
@@ -29,7 +30,7 @@ params:
   ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
+  ShowToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
   comments: false
