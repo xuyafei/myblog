@@ -26,12 +26,6 @@ ShowShareButtons: true
 ShowBreadCrumbs: true
 # 是否显示代码复制按钮
 ShowCodeCopyButtons: true
-# 封面图设置
-cover:
-    image: "images/hugo-logo.png" # 可以稍后添加封面图
-    alt: "Hugo Logo"
-    caption: "使用 Hugo 构建个人博客"
-    relative: true
 ---
 
 ## 引言
