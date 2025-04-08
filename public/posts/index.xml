@@ -1,18 +1,55 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on My Tech Blog</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My Tech Blog</description>
+    <title>Posts on My Blog</title>
+    <link>http://localhost:1313/myblog/posts/</link>
+    <description>Recent content in Posts on My Blog</description>
     <generator>Hugo -- 0.145.0</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/myblog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何使用 Hugo 和 GitHub Pages 构建个人博客</title>
+      <link>http://localhost:1313/myblog/posts/how-to-build-blog/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/myblog/posts/how-to-build-blog/</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
+&lt;p&gt;搭建个人博客是展示自己技术积累、分享知识的好方式。本文将详细介绍如何使用 Hugo 静态网站生成器和 GitHub Pages 来构建一个现代化的个人博客。&lt;/p&gt;
+&lt;h2 id=&#34;技术栈选择&#34;&gt;技术栈选择&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;静态网站生成器&lt;/strong&gt;: &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;主题&lt;/strong&gt;: &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod&#34;&gt;PaperMod&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;托管平台&lt;/strong&gt;: &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自动部署&lt;/strong&gt;: GitHub Actions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;详细步骤&#34;&gt;详细步骤&lt;/h2&gt;
+&lt;h3 id=&#34;1-环境准备&#34;&gt;1. 环境准备&lt;/h3&gt;
+&lt;p&gt;首先需要安装以下工具：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Git&lt;/li&gt;
+&lt;li&gt;Hugo（推荐使用 extended 版本）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;对于 macOS 用户，可以使用 Homebrew 安装：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2-创建-hugo-站点&#34;&gt;2. 创建 Hugo 站点&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 创建新的 Hugo 站点&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site myblog
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd myblog
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 初始化 Git 仓库&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;3-安装主题&#34;&gt;3. 安装主题&lt;/h3&gt;
+&lt;p&gt;我们选择了 PaperMod 主题，它具有现代的设计风格和丰富的功能：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 添加主题作为 git submodule&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;4-配置网站&#34;&gt;4. 配置网站&lt;/h3&gt;
+&lt;p&gt;在根目录创建 &lt;code&gt;config.yml&lt;/code&gt; 文件，配置网站的基本信息：&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>http://localhost:1313/myblog/posts/my-first-post/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/myblog/posts/my-first-post/</guid>
       <description>&lt;h2 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to My Blog!&lt;/h2&gt;
 &lt;p&gt;This is my first blog post using Hugo and the PaperMod theme. I&amp;rsquo;m excited to start sharing my thoughts and experiences here.&lt;/p&gt;
 &lt;h3 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h3&gt;

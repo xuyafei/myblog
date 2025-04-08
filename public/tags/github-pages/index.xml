@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My Blog</title>
-    <link>http://localhost:1313/myblog/</link>
-    <description>Recent content on My Blog</description>
+    <title>GitHub Pages on My Blog</title>
+    <link>http://localhost:1313/myblog/tags/github-pages/</link>
+    <description>Recent content in GitHub Pages on My Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/myblog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/myblog/tags/github-pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何使用 Hugo 和 GitHub Pages 构建个人博客</title>
       <link>http://localhost:1313/myblog/posts/how-to-build-blog/</link>
@@ -44,46 +44,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;4-配置网站&#34;&gt;4. 配置网站&lt;/h3&gt;
 &lt;p&gt;在根目录创建 &lt;code&gt;config.yml&lt;/code&gt; 文件，配置网站的基本信息：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/myblog/about/</link>
-      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/about/</guid>
-      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;
-&lt;p&gt;Hello! I&amp;rsquo;m a software developer passionate about technology and continuous learning. This blog is my platform to share knowledge, experiences, and thoughts about software development and technology.&lt;/p&gt;
-&lt;h3 id=&#34;my-skills&#34;&gt;My Skills&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Programming Languages: [Your Skills]&lt;/li&gt;
-&lt;li&gt;Frameworks: [Your Skills]&lt;/li&gt;
-&lt;li&gt;Tools: [Your Skills]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;contact-me&#34;&gt;Contact Me&lt;/h3&gt;
-&lt;p&gt;Feel free to reach out to me through:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GitHub: [Your GitHub]&lt;/li&gt;
-&lt;li&gt;LinkedIn: [Your LinkedIn]&lt;/li&gt;
-&lt;li&gt;Email: [Your Email]&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;about-this-blog&#34;&gt;About This Blog&lt;/h3&gt;
-&lt;p&gt;This blog is built with Hugo using the PaperMod theme. Here, I&amp;rsquo;ll be sharing:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/myblog/posts/my-first-post/</link>
-      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to My Blog!&lt;/h2&gt;
-&lt;p&gt;This is my first blog post using Hugo and the PaperMod theme. I&amp;rsquo;m excited to start sharing my thoughts and experiences here.&lt;/p&gt;
-&lt;h3 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h3&gt;
-&lt;p&gt;In this blog, I plan to write about:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Technology&lt;/li&gt;
-&lt;li&gt;Software Development&lt;/li&gt;
-&lt;li&gt;Personal Projects&lt;/li&gt;
-&lt;li&gt;Learning Experiences&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Stay tuned for more content!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

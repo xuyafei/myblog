@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Blog on My Tech Blog</title>
-    <link>http://localhost:1313/categories/blog/</link>
-    <description>Recent content in Blog on My Tech Blog</description>
+    <title>Blog on My Blog</title>
+    <link>http://localhost:1313/myblog/categories/blog/</link>
+    <description>Recent content in Blog on My Blog</description>
     <generator>Hugo -- 0.145.0</generator>
-    <language>en</language>
+    <language>zh-cn</language>
     <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/myblog/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>http://localhost:1313/myblog/posts/my-first-post/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/myblog/posts/my-first-post/</guid>
       <description>&lt;h2 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to My Blog!&lt;/h2&gt;
 &lt;p&gt;This is my first blog post using Hugo and the PaperMod theme. I&amp;rsquo;m excited to start sharing my thoughts and experiences here.&lt;/p&gt;
 &lt;h3 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h3&gt;

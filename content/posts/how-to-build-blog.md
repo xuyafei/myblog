@@ -1,9 +1,37 @@
 ---
 title: "如何使用 Hugo 和 GitHub Pages 构建个人博客"
 date: 2024-04-07
+lastmod: 2024-04-07
 draft: false
+weight: 1
+# 作者信息
+author: "徐亚飞"
+# 文章描述
+description: "详细介绍如何使用 Hugo 和 GitHub Pages 搭建个人技术博客，包括环境配置、主题设置、部署流程等全过程"
+# 文章关键词
+keywords: ["Hugo", "博客搭建", "GitHub Pages", "静态网站"]
+# 文章分类和标签
 tags: ["Hugo", "GitHub Pages", "博客"]
 categories: ["技术教程"]
+# 文章设置
+ShowToc: true
+TocOpen: true
+# 是否显示阅读时间
+ShowReadingTime: true
+# 是否显示字数统计
+ShowWordCount: true
+# 是否显示分享按钮
+ShowShareButtons: true
+# 是否显示面包屑导航
+ShowBreadCrumbs: true
+# 是否显示代码复制按钮
+ShowCodeCopyButtons: true
+# 封面图设置
+cover:
+    image: "images/hugo-logo.png" # 可以稍后添加封面图
+    alt: "Hugo Logo"
+    caption: "使用 Hugo 构建个人博客"
+    relative: true
 ---
 
 ## 引言

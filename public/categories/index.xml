@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on My Tech Blog</title>
-    <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on My Tech Blog</description>
+    <title>Categories on My Blog</title>
+    <link>http://localhost:1313/myblog/categories/</link>
+    <description>Recent content in Categories on My Blog</description>
     <generator>Hugo -- 0.145.0</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/myblog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>技术教程</title>
+      <link>http://localhost:1313/myblog/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/myblog/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Blog</title>
-      <link>http://localhost:1313/categories/blog/</link>
+      <link>http://localhost:1313/myblog/categories/blog/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/blog/</guid>
+      <guid>http://localhost:1313/myblog/categories/blog/</guid>
       <description></description>
     </item>
   </channel>
