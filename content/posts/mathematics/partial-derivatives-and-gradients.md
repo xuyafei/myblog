@@ -12,7 +12,7 @@ description: "深入解析偏导数和梯度的概念，包括定义、几何意
 keywords: ["偏导数", "梯度", "数学", "机器学习", "优化"]
 # 文章分类和标签
 tags: ["数学", "机器学习", "优化算法"]
-categories: ["技术教程"]
+categories: ["数学"]
 # 文章设置
 ShowToc: true
 TocOpen: true
