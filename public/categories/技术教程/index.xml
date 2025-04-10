@@ -2,48 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>技术教程 on My Blog</title>
-    <link>http://localhost:1313/myblog/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</link>
+    <link>https://xuyafei.github.io/myblog/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</link>
     <description>Recent content in 技术教程 on My Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/myblog/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://xuyafei.github.io/myblog/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>如何使用 Hugo 和 GitHub Pages 构建个人博客</title>
-      <link>http://localhost:1313/myblog/posts/how-to-build-blog/</link>
+      <link>https://xuyafei.github.io/myblog/posts/how-to-build-blog/</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/posts/how-to-build-blog/</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;
-&lt;p&gt;搭建个人博客是展示自己技术积累、分享知识的好方式。本文将详细介绍如何使用 Hugo 静态网站生成器和 GitHub Pages 来构建一个现代化的个人博客。&lt;/p&gt;
-&lt;h2 id=&#34;技术栈选择&#34;&gt;技术栈选择&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;静态网站生成器&lt;/strong&gt;: &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;主题&lt;/strong&gt;: &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod&#34;&gt;PaperMod&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;托管平台&lt;/strong&gt;: &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;自动部署&lt;/strong&gt;: GitHub Actions&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;详细步骤&#34;&gt;详细步骤&lt;/h2&gt;
-&lt;h3 id=&#34;1-环境准备&#34;&gt;1. 环境准备&lt;/h3&gt;
-&lt;p&gt;首先需要安装以下工具：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Git&lt;/li&gt;
-&lt;li&gt;Hugo（推荐使用 extended 版本）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;对于 macOS 用户，可以使用 Homebrew 安装：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install hugo
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;2-创建-hugo-站点&#34;&gt;2. 创建 Hugo 站点&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 创建新的 Hugo 站点&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site myblog
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd myblog
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 初始化 Git 仓库&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;3-安装主题&#34;&gt;3. 安装主题&lt;/h3&gt;
-&lt;p&gt;我们选择了 PaperMod 主题，它具有现代的设计风格和丰富的功能：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 添加主题作为 git submodule&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;4-配置网站&#34;&gt;4. 配置网站&lt;/h3&gt;
-&lt;p&gt;在根目录创建 &lt;code&gt;config.yml&lt;/code&gt; 文件，配置网站的基本信息：&lt;/p&gt;</description>
+      <guid>https://xuyafei.github.io/myblog/posts/how-to-build-blog/</guid>
+      <description>详细介绍如何使用 Hugo 和 GitHub Pages 搭建个人技术博客，包括环境配置、主题设置、部署流程等全过程</description>
+    </item>
+    <item>
+      <title>深入理解 C&#43;&#43; 引用机制：原理与最佳实践</title>
+      <link>https://xuyafei.github.io/myblog/posts/cpp-references/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://xuyafei.github.io/myblog/posts/cpp-references/</guid>
+      <description>详细介绍 C&#43;&#43; 引用机制的工作原理、使用场景和最佳实践，包括左值引用、右值引用、常量引用等核心概念</description>
+    </item>
+    <item>
+      <title>偏导数与梯度的概念详解</title>
+      <link>https://xuyafei.github.io/myblog/posts/partial-derivatives-and-gradients/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://xuyafei.github.io/myblog/posts/partial-derivatives-and-gradients/</guid>
+      <description>深入解析偏导数和梯度的概念，包括定义、几何意义、数学形式和应用场景，帮助读者理解这些重要的数学概念</description>
     </item>
   </channel>
 </rss>

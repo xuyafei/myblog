@@ -2,38 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on My Blog</title>
-    <link>http://localhost:1313/myblog/tags/</link>
+    <link>https://xuyafei.github.io/myblog/tags/</link>
     <description>Recent content in Tags on My Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/myblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://xuyafei.github.io/myblog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://xuyafei.github.io/myblog/tags/c&#43;&#43;/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://xuyafei.github.io/myblog/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
     <item>
       <title>GitHub Pages</title>
-      <link>http://localhost:1313/myblog/tags/github-pages/</link>
+      <link>https://xuyafei.github.io/myblog/tags/github-pages/</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/tags/github-pages/</guid>
+      <guid>https://xuyafei.github.io/myblog/tags/github-pages/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/myblog/tags/hugo/</link>
+      <link>https://xuyafei.github.io/myblog/tags/hugo/</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/tags/hugo/</guid>
+      <guid>https://xuyafei.github.io/myblog/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>优化算法</title>
+      <link>https://xuyafei.github.io/myblog/tags/%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://xuyafei.github.io/myblog/tags/%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/</guid>
       <description></description>
     </item>
     <item>
       <title>博客</title>
-      <link>http://localhost:1313/myblog/tags/%E5%8D%9A%E5%AE%A2/</link>
+      <link>https://xuyafei.github.io/myblog/tags/%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/tags/%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>https://xuyafei.github.io/myblog/tags/%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>数学</title>
+      <link>https://xuyafei.github.io/myblog/tags/%E6%95%B0%E5%AD%A6/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://xuyafei.github.io/myblog/tags/%E6%95%B0%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>机器学习</title>
+      <link>https://xuyafei.github.io/myblog/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://xuyafei.github.io/myblog/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>核心概念</title>
+      <link>https://xuyafei.github.io/myblog/tags/%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://xuyafei.github.io/myblog/tags/%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>编程语言</title>
+      <link>https://xuyafei.github.io/myblog/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://xuyafei.github.io/myblog/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</guid>
       <description></description>
     </item>
     <item>
       <title>First</title>
-      <link>http://localhost:1313/myblog/tags/first/</link>
+      <link>https://xuyafei.github.io/myblog/tags/first/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/myblog/tags/first/</guid>
+      <guid>https://xuyafei.github.io/myblog/tags/first/</guid>
       <description></description>
     </item>
   </channel>

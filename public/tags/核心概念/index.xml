@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>核心概念 on My Blog</title>
+    <link>https://xuyafei.github.io/myblog/tags/%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/</link>
+    <description>Recent content in 核心概念 on My Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://xuyafei.github.io/myblog/tags/%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>深入理解 C&#43;&#43; 引用机制：原理与最佳实践</title>
+      <link>https://xuyafei.github.io/myblog/posts/cpp-references/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://xuyafei.github.io/myblog/posts/cpp-references/</guid>
+      <description>详细介绍 C&#43;&#43; 引用机制的工作原理、使用场景和最佳实践，包括左值引用、右值引用、常量引用等核心概念</description>
+    </item>
+  </channel>
+</rss>
