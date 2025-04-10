@@ -29,20 +29,21 @@ ShowCodeCopyButtons: true
 偏导数是多元函数对**某一个自变量**的导数，表示当其他自变量固定时，函数沿该方向的变化率。
 
 ### 通俗解释
-想象你站在一个山坡上（函数 \( f(x,y) \) 表示海拔）：
-- 对 \( x \) 的偏导数（\( \frac{\partial f}{\partial x} \)）是**仅沿东西方向**移动时的坡度。
-- 对 \( y \) 的偏导数（\( \frac{\partial f}{\partial y} \)）是**仅沿南北方向**的坡度。
+想象你站在一个山坡上（函数 $f(x,y)$ 表示海拔）：
+- 对 $x$ 的偏导数（$\frac{\partial f}{\partial x}$）是**仅沿东西方向**移动时的坡度。
+- 对 $y$ 的偏导数（$\frac{\partial f}{\partial y}$）是**仅沿南北方向**的坡度。
 
 ### 数学形式
-对于函数 \( f(x_1, x_2, \dots, x_n) \)：
-\[
+对于函数 $f(x_1, x_2, \dots, x_n)$：
+
+$$
 \frac{\partial f}{\partial x_i} = \lim_{h \to 0} \frac{f(x_1, \dots, x_i + h, \dots, x_n) - f(x_1, \dots, x_n)}{h}
-\]
+$$
 
 ### 例子
-设 \( f(x,y) = x^2 + 3xy \)：
-- \( \frac{\partial f}{\partial x} = 2x + 3y \) （视 \( y \) 为常数）
-- \( \frac{\partial f}{\partial y} = 3x \) （视 \( x \) 为常数）
+设 $f(x,y) = x^2 + 3xy$：
+- $\frac{\partial f}{\partial x} = 2x + 3y$ （视 $y$ 为常数）
+- $\frac{\partial f}{\partial y} = 3x$ （视 $x$ 为常数）
 
 ---
 
@@ -56,17 +57,20 @@ ShowCodeCopyButtons: true
 - 梯度的大小表示该方向的陡峭程度。
 
 ### 数学形式
-对于 \( f(x_1, x_2, \dots, x_n) \)，梯度记作 \( \nabla f \)：
-\[
+对于 $f(x_1, x_2, \dots, x_n)$，梯度记作 $\nabla f$：
+
+$$
 \nabla f = \left( \frac{\partial f}{\partial x_1}, \frac{\partial f}{\partial x_2}, \dots, \frac{\partial f}{\partial x_n} \right)
-\]
+$$
 
 ### 例子
-继续用 \( f(x,y) = x^2 + 3xy \)：
-\[
+继续用 $f(x,y) = x^2 + 3xy$：
+
+$$
 \nabla f = \left( 2x + 3y, 3x \right)
-\]
-在点 \( (1, 2) \) 处的梯度为 \( \nabla f = (8, 3) \)，表示从该点出发，沿方向 \( (8, 3) \) 函数值增长最快。
+$$
+
+在点 $(1, 2)$ 处的梯度为 $\nabla f = (8, 3)$，表示从该点出发，沿方向 $(8, 3)$ 函数值增长最快。
 
 ---
 
@@ -93,4 +97,4 @@ ShowCodeCopyButtons: true
 
 ---
 
-> 注：本文使用 LaTeX 数学公式，在支持数学公式的 Markdown 查看器中可以看到完整的数学公式渲染效果。 
+> 注：本文使用 KaTeX 渲染数学公式，确保最佳显示效果。 
