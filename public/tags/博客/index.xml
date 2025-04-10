@@ -9,11 +9,18 @@
     <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://xuyafei.github.io/myblog/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>如何使用 Hugo 和 GitHub Pages 构建个人博客</title>
-      <link>https://xuyafei.github.io/myblog/posts/how-to-build-blog/</link>
+      <title>使用 Hugo 搭建个人博客：从零开始的完整指南</title>
+      <link>https://xuyafei.github.io/myblog/posts/tutorial/how-to-build-blog/</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://xuyafei.github.io/myblog/posts/how-to-build-blog/</guid>
-      <description>详细介绍如何使用 Hugo 和 GitHub Pages 搭建个人技术博客，包括环境配置、主题设置、部署流程等全过程</description>
+      <guid>https://xuyafei.github.io/myblog/posts/tutorial/how-to-build-blog/</guid>
+      <description>详细介绍如何使用 Hugo 静态网站生成器搭建个人博客，包括环境配置、主题选择、内容创作和部署发布等完整流程</description>
+    </item>
+    <item>
+      <title>我的第一篇博客文章</title>
+      <link>https://xuyafei.github.io/myblog/posts/tutorial/my-first-post/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://xuyafei.github.io/myblog/posts/tutorial/my-first-post/</guid>
+      <description>这是我的第一篇博客文章，用来测试 Hugo 博客系统的基本功能</description>
     </item>
   </channel>
 </rss>

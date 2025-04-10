@@ -3,6 +3,22 @@ languageCode: "zh-cn"
 title: "My Blog"
 theme: "PaperMod"
 
+# 启用归档功能
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+  section:
+    - HTML
+    - RSS
+    - JSON
+  page:
+    - HTML
+  archive:
+    - HTML
+    - JSON
+
 pagination:
   pagerSize: 5
 
@@ -38,6 +54,16 @@ params:
   hideSummary: false
   showtoc: true
   tocopen: false
+
+  # 归档设置
+  archive:
+    enable: true
+    path: "archives"
+    layout: "archives"
+    permalink: "/archives/"
+    paginate: 12
+    orderby: "date"
+    order: "desc"
 
   profileMode:
     enabled: true

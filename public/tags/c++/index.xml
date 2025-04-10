@@ -9,11 +9,11 @@
     <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://xuyafei.github.io/myblog/tags/c++/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>深入理解 C&#43;&#43; 引用机制：原理与最佳实践</title>
-      <link>https://xuyafei.github.io/myblog/posts/cpp-references/</link>
+      <title>C&#43;&#43; 引用详解：从基础到高级应用</title>
+      <link>https://xuyafei.github.io/myblog/posts/programming/cpp-references/</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://xuyafei.github.io/myblog/posts/cpp-references/</guid>
-      <description>详细介绍 C&#43;&#43; 引用机制的工作原理、使用场景和最佳实践，包括左值引用、右值引用、常量引用等核心概念</description>
+      <guid>https://xuyafei.github.io/myblog/posts/programming/cpp-references/</guid>
+      <description>全面解析 C&#43;&#43; 引用的概念、用法和最佳实践，包括左值引用、右值引用、引用折叠等高级特性</description>
     </item>
   </channel>
 </rss>

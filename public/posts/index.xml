@@ -9,42 +9,32 @@
     <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://xuyafei.github.io/myblog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>如何使用 Hugo 和 GitHub Pages 构建个人博客</title>
-      <link>https://xuyafei.github.io/myblog/posts/how-to-build-blog/</link>
+      <title>使用 Hugo 搭建个人博客：从零开始的完整指南</title>
+      <link>https://xuyafei.github.io/myblog/posts/tutorial/how-to-build-blog/</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://xuyafei.github.io/myblog/posts/how-to-build-blog/</guid>
-      <description>详细介绍如何使用 Hugo 和 GitHub Pages 搭建个人技术博客，包括环境配置、主题设置、部署流程等全过程</description>
+      <guid>https://xuyafei.github.io/myblog/posts/tutorial/how-to-build-blog/</guid>
+      <description>详细介绍如何使用 Hugo 静态网站生成器搭建个人博客，包括环境配置、主题选择、内容创作和部署发布等完整流程</description>
     </item>
     <item>
-      <title>深入理解 C&#43;&#43; 引用机制：原理与最佳实践</title>
-      <link>https://xuyafei.github.io/myblog/posts/cpp-references/</link>
+      <title>C&#43;&#43; 引用详解：从基础到高级应用</title>
+      <link>https://xuyafei.github.io/myblog/posts/programming/cpp-references/</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://xuyafei.github.io/myblog/posts/cpp-references/</guid>
-      <description>详细介绍 C&#43;&#43; 引用机制的工作原理、使用场景和最佳实践，包括左值引用、右值引用、常量引用等核心概念</description>
+      <guid>https://xuyafei.github.io/myblog/posts/programming/cpp-references/</guid>
+      <description>全面解析 C&#43;&#43; 引用的概念、用法和最佳实践，包括左值引用、右值引用、引用折叠等高级特性</description>
     </item>
     <item>
       <title>偏导数与梯度的概念详解</title>
-      <link>https://xuyafei.github.io/myblog/posts/partial-derivatives-and-gradients/</link>
+      <link>https://xuyafei.github.io/myblog/posts/mathematics/partial-derivatives-and-gradients/</link>
       <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://xuyafei.github.io/myblog/posts/partial-derivatives-and-gradients/</guid>
+      <guid>https://xuyafei.github.io/myblog/posts/mathematics/partial-derivatives-and-gradients/</guid>
       <description>深入解析偏导数和梯度的概念，包括定义、几何意义、数学形式和应用场景，帮助读者理解这些重要的数学概念</description>
     </item>
     <item>
-      <title>My First Post</title>
-      <link>https://xuyafei.github.io/myblog/posts/my-first-post/</link>
-      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://xuyafei.github.io/myblog/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to My Blog!&lt;/h2&gt;
-&lt;p&gt;This is my first blog post using Hugo and the PaperMod theme. I&amp;rsquo;m excited to start sharing my thoughts and experiences here.&lt;/p&gt;
-&lt;h3 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h3&gt;
-&lt;p&gt;In this blog, I plan to write about:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Technology&lt;/li&gt;
-&lt;li&gt;Software Development&lt;/li&gt;
-&lt;li&gt;Personal Projects&lt;/li&gt;
-&lt;li&gt;Learning Experiences&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Stay tuned for more content!&lt;/p&gt;</description>
+      <title>我的第一篇博客文章</title>
+      <link>https://xuyafei.github.io/myblog/posts/tutorial/my-first-post/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://xuyafei.github.io/myblog/posts/tutorial/my-first-post/</guid>
+      <description>这是我的第一篇博客文章，用来测试 Hugo 博客系统的基本功能</description>
     </item>
   </channel>
 </rss>

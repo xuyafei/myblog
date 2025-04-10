@@ -2,22 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xuyafei.github.io/myblog/posts/how-to-build-blog/</loc>
+    <loc>https://xuyafei.github.io/myblog/posts/tutorial/how-to-build-blog/</loc>
     <lastmod>2024-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xuyafei.github.io/myblog/posts/cpp-references/</loc>
+    <loc>https://xuyafei.github.io/myblog/posts/programming/cpp-references/</loc>
     <lastmod>2024-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xuyafei.github.io/myblog/posts/partial-derivatives-and-gradients/</loc>
+    <loc>https://xuyafei.github.io/myblog/posts/mathematics/partial-derivatives-and-gradients/</loc>
     <lastmod>2024-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xuyafei.github.io/myblog/tags/c&#43;&#43;/</loc>
     <lastmod>2024-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xuyafei.github.io/myblog/categories/</loc>
-    <lastmod>2024-04-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xuyafei.github.io/myblog/tags/github-pages/</loc>
     <lastmod>2024-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xuyafei.github.io/myblog/tags/hugo/</loc>
@@ -38,7 +35,19 @@
     <loc>https://xuyafei.github.io/myblog/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2024-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xuyafei.github.io/myblog/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://xuyafei.github.io/myblog/tags/%E5%BC%95%E7%94%A8/</loc>
+    <lastmod>2024-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xuyafei.github.io/myblog/posts/tutorial/my-first-post/</loc>
+    <lastmod>2024-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xuyafei.github.io/myblog/categories/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2024-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xuyafei.github.io/myblog/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2024-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xuyafei.github.io/myblog/categories/%E6%95%B0%E5%AD%A6/</loc>
     <lastmod>2024-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xuyafei.github.io/myblog/tags/%E6%95%B0%E5%AD%A6/</loc>
@@ -47,22 +56,16 @@
     <loc>https://xuyafei.github.io/myblog/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
     <lastmod>2024-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xuyafei.github.io/myblog/tags/%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/</loc>
+    <loc>https://xuyafei.github.io/myblog/tags/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2024-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xuyafei.github.io/myblog/tags/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/</loc>
+    <loc>https://xuyafei.github.io/myblog/categories/%E7%BC%96%E7%A8%8B/</loc>
+    <lastmod>2024-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xuyafei.github.io/myblog/tags/%E7%BC%96%E7%A8%8B/</loc>
     <lastmod>2024-04-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xuyafei.github.io/myblog/about/</loc>
-    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xuyafei.github.io/myblog/categories/blog/</loc>
-    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xuyafei.github.io/myblog/tags/first/</loc>
-    <lastmod>2024-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xuyafei.github.io/myblog/posts/my-first-post/</loc>
     <lastmod>2024-03-19T00:00:00+00:00</lastmod>
   </url>
 </urlset>
