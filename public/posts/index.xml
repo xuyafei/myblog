@@ -6,7 +6,7 @@
     <description>Recent content in Posts on My Blog</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 07 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://xuyafei.github.io/myblog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用 Hugo 搭建个人博客：从零开始的完整指南</title>
@@ -28,6 +28,13 @@
       <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://xuyafei.github.io/myblog/posts/mathematics/partial-derivatives-and-gradients/</guid>
       <description>深入解析偏导数和梯度的概念，包括定义、几何意义、数学形式和应用场景，帮助读者理解这些重要的数学概念</description>
+    </item>
+    <item>
+      <title>Logistic 回归与 Softmax 回归：从原理到实现</title>
+      <link>https://xuyafei.github.io/myblog/posts/mathematics/logistic-and-softmax-regression/</link>
+      <pubDate>Wed, 10 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://xuyafei.github.io/myblog/posts/mathematics/logistic-and-softmax-regression/</guid>
+      <description>深入解析 Logistic 回归和 Softmax 回归的原理、数学推导、几何意义和代码实现，包括二分类和多分类问题的完整解决方案</description>
     </item>
     <item>
       <title>我的第一篇博客文章</title>

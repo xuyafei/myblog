@@ -19,7 +19,15 @@ int x = 42; int& ref = x; // 左值引用 // 不能引用字面量 int& ref2 = 4
 $$ \frac{\partial f}{\partial x_i} = \lim_{h \to 0} \frac{f(x_1, \dots, x_i + h, \dots, x_n) - f(x_1, \dots, x_n)}{h} $$
 例子 设 $f(x,y) = x^2 + 3xy$：
 $\frac{\partial f}{\partial x} = 2x + 3y$ （视 $y$ 为常数） $\frac{\partial f}{\partial y} = 3x$ （视 $x$ 为常数） 2. 梯度（Gradient） 定义 梯度是一个向量，由函数在所有自变量上的偏导数组成，指向函数值增长最快的方向。
-...</p></div><footer class=entry-footer><span title='2024-04-07 00:00:00 +0000 UTC'>2024年4月7日</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;152 words&nbsp;·&nbsp;徐亚飞</footer><a class=entry-link aria-label="post link to 偏导数与梯度的概念详解" href=https://xuyafei.github.io/myblog/posts/mathematics/partial-derivatives-and-gradients/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>我的第一篇博客文章</h2></header><div class=entry-content><p>Welcome to My Blog! This is my first blog post using Hugo and the PaperMod theme. I’m excited to start sharing my thoughts and experiences here.
+...</p></div><footer class=entry-footer><span title='2024-04-07 00:00:00 +0000 UTC'>2024年4月7日</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;152 words&nbsp;·&nbsp;徐亚飞</footer><a class=entry-link aria-label="post link to 偏导数与梯度的概念详解" href=https://xuyafei.github.io/myblog/posts/mathematics/partial-derivatives-and-gradients/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Logistic 回归与 Softmax 回归：从原理到实现</h2></header><div class=entry-content><p>一、什么是二分类问题？ 二分类（Binary Classification）是机器学习中最基础的分类问题之一，目标是将样本分成两个类别，比如：
+邮件是否为垃圾邮件（是/否） 用户是否会点击广告（会/不会） 图像里是否有人脸（有/没有） 形式上：给定输入特征 $x \in \mathbb{R}^n$，目标输出 $y \in {0, 1}$，我们想要学习一个函数 $f(x)$ 来预测 $y$。
+二、Logistic 回归的核心思想 目标 输出一个概率值 $\hat{y} = P(y = 1 \mid x)$，落在 $[0, 1]$ 范围。
+为什么不能直接用线性回归？ 因为线性模型 $y = w^T x + b$ 的输出是 $(-\infty, +\infty)$，不适合做概率。
+三、Sigmoid 函数登场！ Logistic 回归用 Sigmoid 函数把线性输出"压缩"到 $[0, 1]$ 范围，变成概率：
+$$ \sigma(z) = \frac{1}{1 + e^{-z}} \quad \text{其中 } z = w^T x + b $$
+所以预测值为：
+$$ \hat{y} = \sigma(w^T x + b) = \frac{1}{1 + e^{-(w^T x + b)}} $$
+...</p></div><footer class=entry-footer><span title='2024-04-10 00:00:00 +0000 UTC'>2024年4月10日</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;469 words&nbsp;·&nbsp;徐亚飞</footer><a class=entry-link aria-label="post link to Logistic 回归与 Softmax 回归：从原理到实现" href=https://xuyafei.github.io/myblog/posts/mathematics/logistic-and-softmax-regression/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>我的第一篇博客文章</h2></header><div class=entry-content><p>Welcome to My Blog! This is my first blog post using Hugo and the PaperMod theme. I’m excited to start sharing my thoughts and experiences here.
 What to Expect In this blog, I plan to write about:
 Technology Software Development Personal Projects Learning Experiences Stay tuned for more content!</p></div><footer class=entry-footer><span title='2024-04-07 00:00:00 +0000 UTC'>2024年4月7日</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;49 words&nbsp;·&nbsp;徐亚飞</footer><a class=entry-link aria-label="post link to 我的第一篇博客文章" href=https://xuyafei.github.io/myblog/posts/tutorial/my-first-post/></a></article></main><footer class=footer><span>&copy; 2025 <a href=https://xuyafei.github.io/myblog/>My Blog</a></span> ·
 <span>Powered by
