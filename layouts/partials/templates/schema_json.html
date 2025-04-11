@@ -1,24 +1,13 @@
-{{ $schema := dict "@context" "https://schema.org" }}
-{{ $schema = merge $schema (dict "@type" "WebSite") }}
-{{ $schema = merge $schema (dict "name" .Site.Title) }}
-{{ $schema = merge $schema (dict "url" .Site.BaseURL) }}
-
-{{ if .IsHome }}
-  {{ $schema = merge $schema (dict "@type" "WebSite") }}
-{{ else if .IsPage }}
-  {{ $schema = merge $schema (dict "@type" "Article") }}
-  {{ $schema = merge $schema (dict "headline" .Title) }}
+{{ $schema := dict "@context" "https://schema.org" "@type" "WebSite" "name" .Site.Title "url" .Site.BaseURL }}
+{{ if .IsPage }}
+  {{ $schema = merge $schema (dict "@type" "Article" "headline" .Title "author" (dict "@type" "Person" "name" .Site.Params.author)) }}
   {{ if .Date }}
     {{ $schema = merge $schema (dict "datePublished" (.Date.Format "2006-01-02")) }}
   {{ end }}
   {{ if .Lastmod }}
     {{ $schema = merge $schema (dict "dateModified" (.Lastmod.Format "2006-01-02")) }}
   {{ end }}
-  {{ if .Params.author }}
-    {{ $schema = merge $schema (dict "author" (dict "@type" "Person" "name" .Params.author)) }}
-  {{ end }}
 {{ end }}
-
 <script type="application/ld+json">
   {{ $schema | jsonify | safeJS }}
 </script> 
