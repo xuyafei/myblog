@@ -15,7 +15,7 @@ outputs:
     - JSON
   page:
     - HTML
-  archive:
+  archives:
     - HTML
     - JSON
 
@@ -56,7 +56,7 @@ params:
   tocopen: false
 
   # 归档设置
-  archive:
+  archives:
     enable: true
     path: "archives"
     layout: "archives"

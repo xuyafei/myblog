@@ -1,0 +1,84 @@
+{{ define "main" }}
+<div class="archive-container">
+    <h1>归档</h1>
+    <div class="archive-list">
+        {{ range .Site.RegularPages.GroupByDate "2006" }}
+        <div class="archive-year">
+            <h2>{{ .Key }}</h2>
+            {{ range .Pages.GroupByDate "2006-01" }}
+            <div class="archive-month">
+                <h3>{{ .Key }}</h3>
+                <ul>
+                    {{ range .Pages }}
+                    <li>
+                        <span class="archive-date">{{ .Date.Format "2006-01-02" }}</span>
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+</div>
+
+<style>
+.archive-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.archive-list {
+    margin-top: 20px;
+}
+
+.archive-year {
+    margin-bottom: 30px;
+}
+
+.archive-year h2 {
+    color: var(--primary);
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.archive-month {
+    margin-bottom: 20px;
+}
+
+.archive-month h3 {
+    color: var(--secondary);
+    margin-bottom: 10px;
+}
+
+.archive-month ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.archive-month li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.archive-date {
+    color: var(--tertiary);
+    margin-right: 15px;
+    font-size: 0.9em;
+}
+
+.archive-month a {
+    color: var(--content);
+    text-decoration: none;
+}
+
+.archive-month a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+</style>
+{{ end }} 
