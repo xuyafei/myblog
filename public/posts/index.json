@@ -1,0 +1,31 @@
+{"title":"Posts","type":"section","url":"https://xuyafei.github.io/myblog/posts/","content":[{"title":"使用 Hugo 搭建个人博客：从零开始的完整指南","url":"https://xuyafei.github.io/myblog/posts/tutorial/how-to-build-blog/","date":"2024-04-07","lastmod":"2024-04-07","summary":"引言 搭建个人博客是展示自己技术积累、分享知识的好方式。本文将详细介绍如何使用 Hugo 静态网站生成器和 GitHub Pages 来构建一个现代化的个人博客。
+技术栈选择 静态网站生成器: Hugo 主题: PaperMod 托管平台: GitHub Pages 自动部署: GitHub Actions 详细步骤 1. 环境准备 首先需要安装以下工具：
+Git Hugo（推荐使用 extended 版本） 对于 macOS 用户，可以使用 Homebrew 安装：
+brew install hugo 2. 创建 Hugo 站点 # 创建新的 Hugo 站点 hugo new site myblog cd myblog # 初始化 Git 仓库 git init 3. 安装主题 我们选择了 PaperMod 主题，它具有现代的设计风格和丰富的功能：
+# 添加主题作为 git submodule git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod 4. 配置网站 在根目录创建 config.yml 文件，配置网站的基本信息：
+"},{"title":"C++ 引用详解：从基础到高级应用","url":"https://xuyafei.github.io/myblog/posts/programming/cpp-references/","date":"2024-04-07","lastmod":"2024-04-07","summary":"引言 C++ 的引用机制是该语言最强大且独特的特性之一。它不仅提供了一种安全的指针替代方案，还是现代 C++ 中移动语义和完美转发等高级特性的基础。本文将深入探讨 C++ 引用机制的各个方面，从基础概念到高级应用。
+引用的基本概念 什么是引用？ 引用可以看作是一个变量的别名。它在内存中不占用额外空间（在大多数实现中），必须在创建时初始化，并且一旦绑定到一个变量，就不能再引用其他变量。
+int x = 42; int&amp; ref = x; // ref 是 x 的引用 ref = 24; // 修改 ref 就是修改 x 引用 vs 指针 引用和指针有一些重要的区别：
+初始化要求：
+int* ptr; // 合法，可以不初始化 int&amp; ref; // 非法，引用必须初始化 重新赋值：
+int x = 1, y = 2; int* ptr = &amp;x; ptr = &amp;y; // 合法，指针可以指向新的地址 int&amp; ref = x; ref = y; // 这是赋值操作，不是重新引用 空值：
+int* ptr = nullptr; // 合法 int&amp; ref = nullptr; // 非法，引用不能为空 引用的类型 1. 左值引用 最基本的引用类型，用于引用可以取地址的表达式：
+int x = 42; int&amp; ref = x; // 左值引用 // 不能引用字面量 int&amp; ref2 = 42; // 错误！不能引用右值 2. 常量引用 可以引用常量，也可以引用右值：
+"},{"title":"偏导数与梯度的概念详解","url":"https://xuyafei.github.io/myblog/posts/mathematics/partial-derivatives-and-gradients/","date":"2024-04-07","lastmod":"2024-04-07","summary":"1. 偏导数（Partial Derivative） 定义 偏导数是多元函数对某一个自变量的导数，表示当其他自变量固定时，函数沿该方向的变化率。
+通俗解释 想象你站在一个山坡上（函数 $f(x,y)$ 表示海拔）：
+对 $x$ 的偏导数（$\frac{\partial f}{\partial x}$）是仅沿东西方向移动时的坡度。 对 $y$ 的偏导数（$\frac{\partial f}{\partial y}$）是仅沿南北方向的坡度。 数学形式 对于函数 $f(x_1, x_2, \dots, x_n)$：
+$$ \frac{\partial f}{\partial x_i} = \lim_{h \to 0} \frac{f(x_1, \dots, x_i + h, \dots, x_n) - f(x_1, \dots, x_n)}{h} $$
+例子 设 $f(x,y) = x^2 + 3xy$：
+$\frac{\partial f}{\partial x} = 2x + 3y$ （视 $y$ 为常数） $\frac{\partial f}{\partial y} = 3x$ （视 $x$ 为常数） 2. 梯度（Gradient） 定义 梯度是一个向量，由函数在所有自变量上的偏导数组成，指向函数值增长最快的方向。
+"},{"title":"Logistic 回归与 Softmax 回归：从原理到实现","url":"https://xuyafei.github.io/myblog/posts/mathematics/logistic-and-softmax-regression/","date":"2024-04-10","lastmod":"2024-04-10","summary":"一、什么是二分类问题？ 二分类（Binary Classification）是机器学习中最基础的分类问题之一，目标是将样本分成两个类别，比如：
+邮件是否为垃圾邮件（是/否） 用户是否会点击广告（会/不会） 图像里是否有人脸（有/没有） 形式上：给定输入特征 $x \in \mathbb{R}^n$，目标输出 $y \in {0, 1}$，我们想要学习一个函数 $f(x)$ 来预测 $y$。
+二、Logistic 回归的核心思想 目标 输出一个概率值 $\hat{y} = P(y = 1 \mid x)$，落在 $[0, 1]$ 范围。
+为什么不能直接用线性回归？ 因为线性模型 $y = w^T x + b$ 的输出是 $(-\infty, +\infty)$，不适合做概率。
+三、Sigmoid 函数登场！ Logistic 回归用 Sigmoid 函数把线性输出&quot;压缩&quot;到 $[0, 1]$ 范围，变成概率：
+$$ \sigma(z) = \frac{1}{1 + e^{-z}} \quad \text{其中 } z = w^T x + b $$
+所以预测值为：
+$$ \hat{y} = \sigma(w^T x + b) = \frac{1}{1 + e^{-(w^T x + b)}} $$
+"},{"title":"我的第一篇博客文章","url":"https://xuyafei.github.io/myblog/posts/tutorial/my-first-post/","date":"2024-04-07","lastmod":"2024-04-07","summary":"Welcome to My Blog! This is my first blog post using Hugo and the PaperMod theme. I&rsquo;m excited to start sharing my thoughts and experiences here.
+What to Expect In this blog, I plan to write about:
+Technology Software Development Personal Projects Learning Experiences Stay tuned for more content!
+"}]}

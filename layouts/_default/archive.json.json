@@ -1,0 +1,25 @@
+{
+  "title": "{{ .Title }}",
+  "type": "archive",
+  "url": "{{ .Permalink }}",
+  "content": [
+    {{- range $index, $group := .Site.RegularPages.GroupByDate "2006" -}}
+    {{- if $index -}},{{- end -}}
+    {
+      "year": "{{ $group.Key }}",
+      "posts": [
+        {{- range $postIndex, $post := $group.Pages -}}
+        {{- if $postIndex -}},{{- end -}}
+        {
+          "title": "{{ $post.Title }}",
+          "url": "{{ $post.Permalink }}",
+          "date": "{{ $post.Date.Format "2006-01-02" }}",
+          "lastmod": "{{ $post.Lastmod.Format "2006-01-02" }}",
+          "summary": "{{ $post.Summary | plainify }}"
+        }
+        {{- end -}}
+      ]
+    }
+    {{- end -}}
+  ]
+} 
