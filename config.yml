@@ -15,9 +15,6 @@ outputs:
     - JSON
   page:
     - HTML
-  archive:
-    - HTML
-    - JSON
 
 pagination:
   pagerSize: 5
